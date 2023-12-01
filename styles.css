@@ -5,14 +5,14 @@ html {
   header{
     width:100%;
     align-items: center; 
-    background-color: #445a74;
+    background-color: #000000;
     padding-top: 0px;
     padding-bottom: 0px;  
     position: sticky;
     top: 0;
   }
   .heading{
-    color: #0f0d0d;
+    color: #ffffff;
     font-size: 35px;
   }
   .heading h1{
@@ -29,7 +29,7 @@ html {
   }
   .nav-bar a{
     font-size: 20px;
-    color: #0c0c09;
+    color: #ffffff;
   }
   a:link{
         text-decoration: none;
@@ -46,14 +46,14 @@ html {
   .content{
     width: 100%;
     padding-top: 5px;
-    background-color: #e3d7bd;
+    background-color: #ffffff;
     text-align: center;
   }
   footer{
     width: 100%;
     text-align: center;
     font-size: 20px;
-    background-color: #445a74;
+    background-color: rgb(0, 0, 0);
     bottom: 0;
     position: static;
     padding-bottom: 5px;
@@ -63,30 +63,30 @@ html {
     text-align: center;
   }
   .pg3heading{
-    background-color: rgb(102, 170, 215);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     font-size: 20px;
   }
 
   .contentpg2{
     padding-top: 10px;
-    background-color: rgb(102, 170, 215);
+    background-color: rgb(0, 0, 0);
     margin-left: 0px;
     text-align: center;
     font-size: 17px;
   }
   .contentpg2 p{
-    color: #8a0202;
+    color: #ffffff;
   }
 
   .contentpg3{
     padding-top: 10px;
-    background-color: rgb(102, 170, 215);
+    background-color: rgb(0, 0, 0);
     margin-left: 0px;
     text-align: center;
     font-size: 15px;
     
   }
   .contentpg3 p{
-    color: #8a0202;
+    color: #ffffff;
   }
