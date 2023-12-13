@@ -1,24 +1,7 @@
 <html>
     <head>
-        <title> Page4 </title>
+        <title> Page3 </title>
         <link rel="stylesheet" href="styles.css"/>
-        <script>
-            function validate(){
-                var subjects = document.signup.subject.value;
-                var posts = document.signup.post.value;
-                if(subjects == "" || posts == ""){
-                 alert("Fill in all the fields.")   
-                }
-                else{
-                    if(posts.length < 15){
-                        alert("Message must be at least 15 characters long.")
-                    }
-                    else{
-                        alert("Message sent successfully.")
-                    }
-                }
-                }
-        </script>
     </head>
     <body>
         <header>
@@ -28,36 +11,28 @@
             <ul class="nav-bar">
                 <li><a href = "index.html">Homepage</a></li>
                 <li><a href = "page2.html">Game Sites</a></li>
-                <li><a href = "page3.html">Games</a></li>
-                <li><a class="active" href = "page4.html">Submissions</a></li>
+                <li><a href = "page3.html">Mobile Games</a></li>
+                <li><a class = "active" href = "page4.html">Steam Games</a></li>
+                <li><a href = "page5.html">@ Home Games</a></li>
+                <li><a href = "page6.html">Submissions</a></li>
             </ul>
         </header>
-        <div class="content">
-            <form name="signup">
-            <p>This is the page where you can send us your own suggestions or recommendations.</p>
-                <fieldset>
-                      <legend>Send us a message!</legend>
-                  <table>
-                      <tr>
-                         <td align="right"> <label>Email: </label> </td>
-                         <td> <input type="text" name="email"/><br/> </td>
-                      </tr>
-                      <tr>
-                         <td align="right"> <label>Subject: </label> </td>
-                         <td> <input type="text" name="subject"/><br/> </td>
-                      </tr>
-                      <tr>
-                         <td align="right"> <label>Post: </label> </td>
-                         <td> <input type="text" name="post"/><br/> </td>
-                      </tr>
-                        <td colspan="2" align="center"> <input type="submit" onclick="validate();" value="Submit"/></td>
-                      </tr>
-                  </table>
-                </fieldset>
-              </form>
-        </div>
+        <div class="contentpg2">
+        <img src ="images/destiny.jpg" width="200" height="200">
+        <p><a href = "https://www.xbox.com/en-us/games/store/destiny-2/9p9wj5fw0gtd">Destiny 2</a></b></i> by <i><b>Bungie</b></i> </p>
+        <p>Text
+
+        </br>
+        </p></br>
+        <img src ="images/code.jpg" width = "200" height = "200">
+        <p><a href = "https://www.microsoft.com/en-us/p/code-of-war-gun-shooting-games/9pdck6npf4tx?activetab=pivot:overviewtab">Code of War</a></b></i> by <i><b>XDEVS LIMITED</b></i> </p>
+        <p>Text
+
+        </br>
+        </p></br>
+
         <footer>
-            Copyright &copy; Sean and Adrian
+            Copyright &copy; Sean, Adrian, and Marcus
         </footer>
     </body>
 </html>
