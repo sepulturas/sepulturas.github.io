@@ -6,7 +6,8 @@
             function validate(){
                 var subjects = document.signup.subject.value;
                 var posts = document.signup.post.value;
-                if(subjects == "" || posts == ""){
+                var emails = document.signup.email.value;
+                if(subjects == "" || posts == "" || emails == ""){
                  alert("Fill in all the fields.")   
                 }
                 else{
