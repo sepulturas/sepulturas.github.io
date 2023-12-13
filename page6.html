@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title> Page4 </title>
+        <link rel="stylesheet" href="styles.css"/>
+        <script>
+            function validate(){
+                var subjects = document.signup.subject.value;
+                var posts = document.signup.post.value;
+                if(subjects == "" || posts == ""){
+                 alert("Fill in all the fields.")   
+                }
+                else{
+                    if(posts.length < 15){
+                        alert("Message must be at least 15 characters long.")
+                    }
+                    else{
+                        alert("Message sent successfully.")
+                    }
+                }
+                }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="heading">
+                <h1>Search Free Games</h1>
+            </div>
+            <ul class="nav-bar">
+                <li><a href = "index.html">Homepage</a></li>
+                <li><a href = "page2.html">Game Sites</a></li>
+                <li><a href = "page3.html">Mobile Games</a></li>
+                <li><a href = "page4.html">Submissions</a></li>
+                <li><a href = "page5.html">@ Home Games</a></li>
+                <li><a class = "active" href = "page6.html">Submissions</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <form name="signup">
+            <p>This is the page where you can send us your own suggestions or recommendations.</p>
+                <fieldset>
+                      <legend>Send us a message!</legend>
+                  <table>
+                      <tr>
+                         <td align="right"> <label>Email: </label> </td>
+                         <td> <input type="text" name="email"/><br/> </td>
+                      </tr>
+                      <tr>
+                         <td align="right"> <label>Subject: </label> </td>
+                         <td> <input type="text" name="subject"/><br/> </td>
+                      </tr>
+                      <tr>
+                         <td align="right"> <label>Post: </label> </td>
+                         <td> <input type="text" name="post"/><br/> </td>
+                      </tr>
+                        <td colspan="2" align="center"> <input type="submit" onclick="validate();" value="Send"/></td>
+                      </tr>
+                  </table>
+                </fieldset>
+              </form>
+        </div>
+        <footer>
+            Copyright &copy; Sean, Adrian, and Marcus
+        </footer>
+    </body>
+</html>
